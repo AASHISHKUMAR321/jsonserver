@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "http-server",
+    "start": "node server.js",
     "live": "live-server --open=./frontend-files/ --port=8080",
     "server": "node server.js",
     "watch": "npm run server & npm run live",
