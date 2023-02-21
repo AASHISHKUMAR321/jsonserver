@@ -1,5 +1,5 @@
 export default {
-  serverPort: 9090,
+  serverPort: 9999,
   frontendPort: 8080,
   protectedRoutes: [
     { route: "/users", methods: ["POST", "PUT", "DELETE", "PATCH"] },
