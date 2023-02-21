@@ -12,7 +12,7 @@ import { LowSync } from "lowdb";
 import { JSONFileSync } from "lowdb/node";
 import config from "./config.js";
 const { serverPort, frontendPort, protectedRoutes } = config;
-
+const port = process.env.PORT || 9999
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const uid = new ShortUniqueId({ length: 10 });
